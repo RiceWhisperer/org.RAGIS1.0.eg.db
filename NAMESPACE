@@ -1,0 +1,16 @@
+import(methods)
+import(AnnotationDbi)
+
+### Only put what is statically exported here. All the AnnObj instances
+### created at load time are dynamically exported (refer to R/zzz.R for
+### the details).
+export(
+    org.RAGIS1.0.eg,
+    org.RAGIS1.0.eg_dbconn,
+    org.RAGIS1.0.eg_dbfile,
+    org.RAGIS1.0.eg_dbschema,
+    org.RAGIS1.0.eg_dbInfo,
+
+    org.RAGIS1.0.egORGANISM
+)
+
