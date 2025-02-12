@@ -1,0 +1,15 @@
+Package: org.RAGIS1.0.eg.db
+Title: Genome wide annotation for rice AGIS1.0
+Description: Genome wide annotation for rice AGIS1.0, primarily based on mapping using Entrez Gene identifiers.
+Version: 1.0.0
+Author: ZT
+Maintainer: ZT<izhout@163.com>
+Depends: R (>= 2.7.0), methods, AnnotationDbi (>= 1.64.1)
+Suggests: DBI, annotate, RUnit
+License: Artistic-2.0
+organism: rice AGIS1.0
+species: rice AGIS1.0
+biocViews: OrgDb, annotation
+NeedsCompilation: no
+Packaged: 2024-12-11 07:30:27 UTC; <e5><8c><97><e6><a5><bc><e7><94><9f><e4><bf><a1>
+RoxygenNote: 7.3.2
